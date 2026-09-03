@@ -1,0 +1,14 @@
+# Backend
+backend/target/
+backend/.env
+backend/.idea/
+backend/*.iml
+
+# Temporary document review
+.docx_review/
+.docx_review_media/
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.vscode/
