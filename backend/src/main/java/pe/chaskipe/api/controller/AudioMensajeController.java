@@ -8,7 +8,7 @@ import pe.chaskipe.api.dto.*;
 import pe.chaskipe.api.service.AudioMensajeService;
 
 @RestController
-@RequestMapping("/v1/audios")
+@RequestMapping("/api/v1/audios")
 public class AudioMensajeController {
   private final AudioMensajeService service;
 

@@ -8,7 +8,7 @@ import pe.chaskipe.api.dto.*;
 import pe.chaskipe.api.service.HistorialActividadService;
 
 @RestController
-@RequestMapping("/v1/historial")
+@RequestMapping("/api/v1/historial")
 public class HistorialActividadController {
   private final HistorialActividadService service;
 

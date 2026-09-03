@@ -8,7 +8,7 @@ import pe.chaskipe.api.dto.*;
 import pe.chaskipe.api.service.FeedbackPrecisionService;
 
 @RestController
-@RequestMapping("/v1/feedback")
+@RequestMapping("/api/v1/feedback")
 public class FeedbackPrecisionController {
   private final FeedbackPrecisionService service;
 

@@ -8,7 +8,7 @@ import pe.chaskipe.api.dto.*;
 import pe.chaskipe.api.service.ConfiguracionService;
 
 @RestController
-@RequestMapping("/v1/configuraciones")
+@RequestMapping("/api/v1/configuraciones")
 public class ConfiguracionController {
   private final ConfiguracionService service;
 

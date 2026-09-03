@@ -8,7 +8,7 @@ import pe.chaskipe.api.dto.*;
 import pe.chaskipe.api.service.MensajeService;
 
 @RestController
-@RequestMapping("/v1/mensajes")
+@RequestMapping("/api/v1/mensajes")
 public class MensajeController {
   private final MensajeService service;
 

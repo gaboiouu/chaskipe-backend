@@ -8,7 +8,7 @@ import pe.chaskipe.api.dto.*;
 import pe.chaskipe.api.service.GestoDetectadoService;
 
 @RestController
-@RequestMapping("/v1/gestos")
+@RequestMapping("/api/v1/gestos")
 public class GestoDetectadoController {
   private final GestoDetectadoService service;
 
