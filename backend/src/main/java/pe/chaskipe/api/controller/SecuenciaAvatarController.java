@@ -8,7 +8,7 @@ import pe.chaskipe.api.dto.*;
 import pe.chaskipe.api.service.SecuenciaAvatarService;
 
 @RestController
-@RequestMapping("/v1/secuencias-avatar")
+@RequestMapping("/api/v1/secuencias-avatar")
 public class SecuenciaAvatarController {
   private final SecuenciaAvatarService service;
 

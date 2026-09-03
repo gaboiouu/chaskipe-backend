@@ -68,13 +68,19 @@ http://localhost:8080/api
 La documentación de la API se puede consultar en:
 
 ```text
-http://localhost:8080/api/docs
+http://localhost:8080/docs
 ```
 
 Y el estado del servicio en:
 
 ```text
-http://localhost:8080/api/actuator/health
+http://localhost:8080/actuator/health
+
+Al abrir directamente la URL del servicio se muestra un estado básico:
+
+```text
+http://localhost:8080/
+```
 ```
 
 ## Docker

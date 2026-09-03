@@ -8,7 +8,7 @@ import pe.chaskipe.api.dto.*;
 import pe.chaskipe.api.service.SesionCapturaService;
 
 @RestController
-@RequestMapping("/v1/sesiones-captura")
+@RequestMapping("/api/v1/sesiones-captura")
 public class SesionCapturaController {
   private final SesionCapturaService service;
 

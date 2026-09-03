@@ -8,7 +8,7 @@ import pe.chaskipe.api.dto.*;
 import pe.chaskipe.api.service.UsuarioService;
 
 @RestController
-@RequestMapping("/v1/usuarios")
+@RequestMapping("/api/v1/usuarios")
 public class UsuarioController {
   private final UsuarioService service;
 

@@ -8,7 +8,7 @@ import pe.chaskipe.api.dto.*;
 import pe.chaskipe.api.service.ConversacionService;
 
 @RestController
-@RequestMapping("/v1/conversaciones")
+@RequestMapping("/api/v1/conversaciones")
 public class ConversacionController {
   private final ConversacionService service;
 

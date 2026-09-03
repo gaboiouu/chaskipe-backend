@@ -8,7 +8,7 @@ import pe.chaskipe.api.dto.*;
 import pe.chaskipe.api.service.FraseFrecuenteService;
 
 @RestController
-@RequestMapping("/v1/frases-frecuentes")
+@RequestMapping("/api/v1/frases-frecuentes")
 public class FraseFrecuenteController {
   private final FraseFrecuenteService service;
 
