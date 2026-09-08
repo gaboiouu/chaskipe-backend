@@ -1,0 +1,28 @@
+# Entorno virtual y cache de Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Variables de entorno: NUNCA se versionan (contienen la contrasena de la
+# base de datos y la clave que firma los tokens de sesion).
+temp_auto_push.bat
+!.env.example
+
+# Bases de datos locales
+*.sqlite
+*.sqlite3
+*.db
+
+# Sistema operativo / editor
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.gitignore
+branch_structure.json
+config.bat
+node_modules
